@@ -43,7 +43,7 @@ class ParmanentEmployee : Employee
         Console.WriteLine($"Base Salary: {Salary:C}");
         Console.WriteLine($"Bonus: {Bonus:C}");
         Console.ForegroundColor = ConsoleColor.Magenta;
-        Console.WriteLine($"Month Salary: {GetSalary():C}");
+        Console.WriteLine($"Month Salary: {GetSalary():C}\n");
         Console.ResetColor();
     }
 }
